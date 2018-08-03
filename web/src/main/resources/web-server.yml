@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: web-service  
+
+# HTTP Server
+server:
+  port: 3333   # HTTP (Tomcat) port
