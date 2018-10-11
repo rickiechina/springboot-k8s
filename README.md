@@ -1,8 +1,4 @@
-
-
-
-
-##架 构 Architecture
+###架 构 Architecture
 
 示例环境 -- Amazon EC2 环境包括1个master节点和4个worker节点。
 
@@ -10,7 +6,7 @@
 
 
 
-##Service Deployment Into Kubernetes
+###Service Deployment Into Kubernetes
 
 将服务部署到Kubernetes集群
 
