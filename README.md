@@ -4,7 +4,7 @@
 
 示例Spring Boot应用 -- 包括一个web layer和一个service layer，每个应用都是一个独立的Spring Boot application。
 
-![https://raw.githubusercontent.com/rickiechina/springboot-k8s/master/architecture.png]()
+![Architecture](https://raw.githubusercontent.com/rickiechina/springboot-k8s/master/architecture.png)
 
 ## Service Deployment Into Kubernetes
 
@@ -150,4 +150,4 @@ Deploying the Web Layer -- 部署Web Layer
 
 http://192.168.56.110:30538/zip/getZipcodeInfo/33301
 
-![https://raw.githubusercontent.com/rickiechina/springboot-k8s/master/sourcecode.png]()
+![Spring Boot Application Source Code](https://raw.githubusercontent.com/rickiechina/springboot-k8s/master/sourcecode.png)
