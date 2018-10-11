@@ -82,11 +82,11 @@
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.3.6</version>
 				<configuration>
-					<tag>web-service</tag>
-					<repository>konuratdocker/spark-examples</repository>
-					<imageTags>
-						<imageTag>web-service</imageTag>
-					</imageTags>
+					<tag>1.0</tag>
+					<repository>rickie/webservice</repository>
+					<!--<imageTags>-->
+						<!--<imageTag>web-service</imageTag>-->
+					<!--</imageTags>-->
 					<buildArgs>
 						<JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
 					</buildArgs>

@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ServiceController {
-	private static final String URLPrefix = "https://www.zipcodeapi.com/rest/REDACTED/";
+	private static final String URLPrefix = "https://www.zipcodeapi.com/rest/HVPGrj4eX9wjFoQh7Kj6ElxdAhcAurLHEOLG8VyTrzOC6E90sZFJJKANoUTotGXl/";
 	private static final String GET = "GET";
 	
 	protected Logger logger = Logger.getLogger(ServiceController.class.getName());

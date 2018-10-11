@@ -13,8 +13,7 @@ public class WebService {
 
 	protected String serviceUrl;
 
-	protected Logger logger = Logger.getLogger(WebService.class
-			.getName());
+	protected Logger logger = Logger.getLogger(WebService.class.getName());
 
 	/**
 	 * The serviceURL parameter corresponds to the zipcode service.
