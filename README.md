@@ -1,18 +1,18 @@
-###架 构 Architecture
+## 架 构 Architecture
 
 示例环境 -- Amazon EC2 环境包括1个master节点和4个worker节点。
 
 示例Spring Boot应用 -- 包括一个web layer和一个service layer，每个应用都是一个独立的Spring Boot application。
 
+![https://raw.githubusercontent.com/rickiechina/springboot-k8s/master/architecture.png]()
 
-
-###Service Deployment Into Kubernetes
+## Service Deployment Into Kubernetes
 
 将服务部署到Kubernetes集群
 
 首先，编写相应的deployment和service yaml 文件。
 
-###zip-service-deployment.yaml
+### zip-service-deployment.yaml
 
 ```yaml
 apiVersion: apps/v1
@@ -150,3 +150,4 @@ Deploying the Web Layer -- 部署Web Layer
 
 http://192.168.56.110:30538/zip/getZipcodeInfo/33301
 
+![https://raw.githubusercontent.com/rickiechina/springboot-k8s/master/sourcecode.png]()
